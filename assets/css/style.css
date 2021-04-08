@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 206, 206);
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, rgb(187 188 189), rgb(160 162 160));
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+.card {
+    border-radius: 32px;
+}
+
+.form-group input {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.input100 {
+    height: 60px;
+    width: 100%;
+}
+
+.signinlink {
+    float: right;
+    margin-right: 10px;
+}
+
+.passlink {
+    float: left;
+    margin-left: 10px;
+}
